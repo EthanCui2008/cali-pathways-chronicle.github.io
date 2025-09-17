@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
@@ -19,76 +19,14 @@ interface TimelineEvent {
   image?: string;
 }
 
-const timelineEvents: TimelineEvent[] = [
-  {
-    year: 1868,
-    title: "University of California Founded",
-    description: "The University of California was established in Oakland, later moving to Berkeley.",
-    campus: "Berkeley",
-    category: "founding",
-    image: ucBerkeley1868
-  },
-  {
-    year: 1919,
-    title: "UCLA Established",
-    description: "University of California, Los Angeles was founded as the Southern Branch.",
-    campus: "Los Angeles",
-    category: "founding",
-    image: ucla1920s
-  },
-  {
-    year: 1944,
-    title: "UCSF Becomes General Campus",
-    description: "UC San Francisco transitions from medical school to full campus status.",
-    campus: "San Francisco",
-    category: "expansion",
-    image: ucsf1940s
-  },
-  {
-    year: 1965,
-    title: "UC San Diego Founded",
-    description: "Established as a new campus focusing on science and engineering.",
-    campus: "San Diego",
-    category: "founding",
-    image: ucsd1960s
-  },
-  {
-    year: 1965,
-    title: "UC Irvine Founded",
-    description: "Orange County receives its own UC campus.",
-    campus: "Irvine",
-    category: "founding"
-  },
-  {
-    year: 1968,
-    title: "UC Santa Barbara Joins System",
-    description: "Former independent college becomes part of UC system.",
-    campus: "Santa Barbara",
-    category: "expansion"
-  },
-  {
-    year: 1972,
-    title: "UC Santa Cruz Founded",
-    description: "Innovative campus with unique college system established.",
-    campus: "Santa Cruz",
-    category: "founding"
-  },
-  {
-    year: 1988,
-    title: "UC Riverside Achieves General Campus Status",
-    description: "Transitions from agricultural research station to full campus.",
-    campus: "Riverside",
-    category: "expansion"
-  },
-  {
-    year: 2005,
-    title: "UC Merced Opens",
-    description: "First new UC campus in the 21st century, serving the Central Valley.",
-    campus: "Merced",
-    category: "founding",
-    image: ucmerced2005
-  }
-];
+// Image mapping for local imports
+const imageMap: Record<string, string> = {
+  "/src/assets/uc-berkeley-1868.jpg": ucBerkeley1868,
+  "/src/assets/ucla-1920s.jpg": ucla1920s,
+  "/src/assets/ucsf-1940s.jpg": ucsf1940s,
+  "/src/assets/ucsd-1960s.jpg": ucsd1960s,
+  "/src/assets/ucmerced-2005.jpg": ucmerced2005,
+};
 
 const categoryColors = {
   founding: "bg-primary text-primary-foreground",
@@ -99,6 +37,32 @@ const categoryColors = {
 
 export const Timeline = () => {
   const [selectedEvent, setSelectedEvent] = useState<number | null>(null);
+  const [timelineEvents, setTimelineEvents] = useState<TimelineEvent[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchTimelineEvents = async () => {
+      try {
+        const response = await fetch('/timeline-events.json');
+        const events = await response.json();
+        setTimelineEvents(events);
+      } catch (error) {
+        console.error('Failed to fetch timeline events:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTimelineEvents();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center py-12">
+        <div className="text-lg text-muted-foreground">Loading timeline...</div>
+      </div>
+    );
+  }
 
   return (
     <div className="relative">
@@ -134,7 +98,7 @@ export const Timeline = () => {
                   {event.image && (
                     <div className="mb-4">
                       <img 
-                        src={event.image} 
+                        src={imageMap[event.image] || event.image} 
                         alt={`${event.title} - ${event.campus ? `UC ${event.campus}` : 'UC System'}`}
                         className="w-full h-48 object-cover rounded-lg shadow-md"
                       />

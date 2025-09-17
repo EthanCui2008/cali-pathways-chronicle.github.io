@@ -1,0 +1,70 @@
+[
+  {
+    "year": 1868,
+    "title": "University of California Founded",
+    "description": "The University of California was established in Oakland, later moving to Berkeley.",
+    "campus": "Berkeley",
+    "category": "founding",
+    "image": "/src/assets/uc-berkeley-1868.jpg"
+  },
+  {
+    "year": 1919,
+    "title": "UCLA Established", 
+    "description": "University of California, Los Angeles was founded as the Southern Branch.",
+    "campus": "Los Angeles",
+    "category": "founding",
+    "image": "/src/assets/ucla-1920s.jpg"
+  },
+  {
+    "year": 1944,
+    "title": "UCSF Becomes General Campus",
+    "description": "UC San Francisco transitions from medical school to full campus status.",
+    "campus": "San Francisco", 
+    "category": "expansion",
+    "image": "/src/assets/ucsf-1940s.jpg"
+  },
+  {
+    "year": 1965,
+    "title": "UC San Diego Founded",
+    "description": "Established as a new campus focusing on science and engineering.",
+    "campus": "San Diego",
+    "category": "founding", 
+    "image": "/src/assets/ucsd-1960s.jpg"
+  },
+  {
+    "year": 1965,
+    "title": "UC Irvine Founded",
+    "description": "Orange County receives its own UC campus.",
+    "campus": "Irvine",
+    "category": "founding"
+  },
+  {
+    "year": 1968,
+    "title": "UC Santa Barbara Joins System",
+    "description": "Former independent college becomes part of UC system.",
+    "campus": "Santa Barbara",
+    "category": "expansion"
+  },
+  {
+    "year": 1972,
+    "title": "UC Santa Cruz Founded", 
+    "description": "Innovative campus with unique college system established.",
+    "campus": "Santa Cruz",
+    "category": "founding"
+  },
+  {
+    "year": 1988,
+    "title": "UC Riverside Achieves General Campus Status",
+    "description": "Transitions from agricultural research station to full campus.",
+    "campus": "Riverside",
+    "category": "expansion"
+  },
+  {
+    "year": 2005,
+    "title": "UC Merced Opens",
+    "description": "First new UC campus in the 21st century, serving the Central Valley.",
+    "campus": "Merced",
+    "category": "founding",
+    "image": "/src/assets/ucmerced-2005.jpg"
+  }
+]

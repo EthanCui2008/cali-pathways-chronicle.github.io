@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { GraduationCap } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { cn } from "@/lib/utils";
 
 export const Navigation = () => {
@@ -33,6 +34,7 @@ export const Navigation = () => {
                 <Link to={item.path}>{item.label}</Link>
               </Button>
             ))}
+            <ThemeToggle />
           </div>
         </div>
       </div>
