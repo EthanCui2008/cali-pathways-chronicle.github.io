@@ -3,12 +3,20 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
+// Import timeline images
+import ucBerkeley1868 from "@/assets/uc-berkeley-1868.jpg";
+import ucla1920s from "@/assets/ucla-1920s.jpg";
+import ucsf1940s from "@/assets/ucsf-1940s.jpg";
+import ucsd1960s from "@/assets/ucsd-1960s.jpg";
+import ucmerced2005 from "@/assets/ucmerced-2005.jpg";
+
 interface TimelineEvent {
   year: number;
   title: string;
   description: string;
   campus?: string;
   category: "founding" | "expansion" | "milestone" | "reform";
+  image?: string;
 }
 
 const timelineEvents: TimelineEvent[] = [
@@ -17,28 +25,32 @@ const timelineEvents: TimelineEvent[] = [
     title: "University of California Founded",
     description: "The University of California was established in Oakland, later moving to Berkeley.",
     campus: "Berkeley",
-    category: "founding"
+    category: "founding",
+    image: ucBerkeley1868
   },
   {
     year: 1919,
     title: "UCLA Established",
     description: "University of California, Los Angeles was founded as the Southern Branch.",
     campus: "Los Angeles",
-    category: "founding"
+    category: "founding",
+    image: ucla1920s
   },
   {
     year: 1944,
     title: "UCSF Becomes General Campus",
     description: "UC San Francisco transitions from medical school to full campus status.",
     campus: "San Francisco",
-    category: "expansion"
+    category: "expansion",
+    image: ucsf1940s
   },
   {
     year: 1965,
     title: "UC San Diego Founded",
     description: "Established as a new campus focusing on science and engineering.",
     campus: "San Diego",
-    category: "founding"
+    category: "founding",
+    image: ucsd1960s
   },
   {
     year: 1965,
@@ -73,7 +85,8 @@ const timelineEvents: TimelineEvent[] = [
     title: "UC Merced Opens",
     description: "First new UC campus in the 21st century, serving the Central Valley.",
     campus: "Merced",
-    category: "founding"
+    category: "founding",
+    image: ucmerced2005
   }
 ];
 
@@ -118,6 +131,15 @@ export const Timeline = () => {
               
               {(selectedEvent === index || selectedEvent === null) && (
                 <CardContent className="pt-0">
+                  {event.image && (
+                    <div className="mb-4">
+                      <img 
+                        src={event.image} 
+                        alt={`${event.title} - ${event.campus ? `UC ${event.campus}` : 'UC System'}`}
+                        className="w-full h-48 object-cover rounded-lg shadow-md"
+                      />
+                    </div>
+                  )}
                   <p className="text-foreground">{event.description}</p>
                 </CardContent>
               )}
