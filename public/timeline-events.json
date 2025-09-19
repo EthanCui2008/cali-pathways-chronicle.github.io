@@ -1,70 +1,134 @@
 [
   {
+    "year": 1855,
+    "title": "The College of California",
+    "description": "The College of California was founded in Oakland by a group of Congregational ministers who hoped to bring classical higher education to the growing state. Despite its ambitions, the college struggled financially and lacked sufficient resources to expand.",
+    "category": "founding"
+  },
+  {
+    "year": 1862,
+    "title": "The Morrill Land-Grant Act",
+    "description": "The Morrill Land-Grant Act of 1862 provided federal lands to states to establish colleges in agriculture and the mechanical arts. This legislation gave California the opportunity to create a publicly supported institution of higher learning.",
+    "category": "milestone"
+  },
+  {
     "year": 1868,
-    "title": "University of California Founded",
-    "description": "The University of California was established in Oakland, later moving to Berkeley.",
+    "title": "Establishment of the University of California",
+    "description": "The California legislature officially chartered the University of California, merging the assets of the struggling College of California with the state's land-grant institution. The act also created the UC Board of Regents, which granted the university a unique independence from direct state legislative control.",
     "campus": "Berkeley",
     "category": "founding",
     "image": "/src/assets/uc-berkeley-1868.jpg"
   },
   {
+    "year": 1869,
+    "title": "The First UC President",
+    "description": "Henry Durant, formerly president of the College of California, became the first president of the new university in 1869. Classes began that year in Oakland with only 10 faculty members and 38 students, marking the modest beginnings of what would become one of the world's leading research systems.",
+    "category": "milestone"
+  },
+  {
+    "year": 1873,
+    "title": "The Berkeley Campus Opens",
+    "description": "The University of California relocated from Oakland to its permanent site in Berkeley. The new location, with views of the Golden Gate, became the flagship campus of the system and the foundation of UC's academic reputation.",
+    "campus": "Berkeley",
+    "category": "expansion"
+  },
+  {
+    "year": "1905–1908",
+    "title": "Creation of UC Davis",
+    "description": "The University Farm School was established near Davis to provide practical agricultural training. Over time, this farm school evolved into UC Davis, which today is recognized worldwide for its leadership in agriculture, veterinary medicine, and life sciences.",
+    "campus": "Davis",
+    "category": "founding"
+  },
+  {
     "year": 1919,
-    "title": "UCLA Established", 
-    "description": "University of California, Los Angeles was founded as the Southern Branch.",
+    "title": "The Southern Branch Becomes UCLA",
+    "description": "The Los Angeles State Normal School was incorporated into the UC system as its Southern Branch. By 1927, it was officially renamed the University of California, Los Angeles (UCLA), which grew to become the largest UC campus by student enrollment.",
     "campus": "Los Angeles",
     "category": "founding",
     "image": "/src/assets/ucla-1920s.jpg"
   },
   {
+    "year": "1920s–1930s",
+    "title": "Growth of Professional Schools",
+    "description": "UC expanded significantly by establishing professional schools in law, medicine, and engineering at Berkeley and UCLA. This expansion transformed UC into a center for specialized training and advanced research across multiple disciplines.",
+    "category": "expansion"
+  },
+  {
+    "year": 1942,
+    "title": "UC and the National Laboratories",
+    "description": "During World War II, UC played a critical role in the war effort when it was contracted to manage the Los Alamos Laboratory, the site of the Manhattan Project. In subsequent decades, UC also managed Lawrence Berkeley Laboratory and Lawrence Livermore Laboratory, cementing its reputation as a central player in national defense and energy research.",
+    "category": "milestone"
+  },
+  {
     "year": 1944,
-    "title": "UCSF Becomes General Campus",
-    "description": "UC San Francisco transitions from medical school to full campus status.",
-    "campus": "San Francisco", 
-    "category": "expansion",
-    "image": "/src/assets/ucsf-1940s.jpg"
-  },
-  {
-    "year": 1965,
-    "title": "UC San Diego Founded",
-    "description": "Established as a new campus focusing on science and engineering.",
-    "campus": "San Diego",
-    "category": "founding", 
-    "image": "/src/assets/ucsd-1960s.jpg"
-  },
-  {
-    "year": 1965,
-    "title": "UC Irvine Founded",
-    "description": "Orange County receives its own UC campus.",
-    "campus": "Irvine",
-    "category": "founding"
-  },
-  {
-    "year": 1968,
-    "title": "UC Santa Barbara Joins System",
-    "description": "Former independent college becomes part of UC system.",
+    "title": "UC Santa Barbara Joins the System",
+    "description": "Santa Barbara State College was incorporated into the UC system and became the University of California, Santa Barbara. This move extended UC's reach into California's coastal region and diversified its academic profile.",
     "campus": "Santa Barbara",
     "category": "expansion"
   },
   {
-    "year": 1972,
-    "title": "UC Santa Cruz Founded", 
-    "description": "Innovative campus with unique college system established.",
-    "campus": "Santa Cruz",
+    "year": 1954,
+    "title": "The Founding of UC Riverside",
+    "description": "UC Riverside was established on the site of the Citrus Experiment Station, which had been created in 1907 to support California's citrus industry. Originally envisioned as a liberal arts college, UC Riverside later expanded into a full-fledged research university.",
+    "campus": "Riverside",
     "category": "founding"
   },
   {
-    "year": 1988,
-    "title": "UC Riverside Achieves General Campus Status",
-    "description": "Transitions from agricultural research station to full campus.",
-    "campus": "Riverside",
-    "category": "expansion"
+    "year": "1958–1965",
+    "title": "Creation of New Campuses",
+    "description": "UC expanded rapidly to meet California's growing population. UC San Diego opened in 1960 as a hub for science and engineering, building on the Scripps Institution of Oceanography. UC Irvine and UC Santa Cruz both opened in 1965, representing the system's continued commitment to broad geographic access and academic innovation.",
+    "campus": "Multiple",
+    "category": "expansion",
+    "image": "/src/assets/ucsd-1960s.jpg"
+  },
+  {
+    "year": 1960,
+    "title": "The California Master Plan for Higher Education",
+    "description": "UC President Clark Kerr spearheaded the California Master Plan for Higher Education, which defined the distinct missions of UC, the California State University system, and the community colleges. Under the plan, UC was designated as the state's primary public research university with exclusive authority to grant doctoral degrees, a structure that remains in place today.",
+    "category": "reform"
+  },
+  {
+    "year": "1960s–1970s",
+    "title": "The Era of Student Activism",
+    "description": "UC campuses became hotbeds of political activism and social change. The most famous example was the 1964 Free Speech Movement at UC Berkeley, which demanded greater student rights and became symbolic of broader civil rights and antiwar movements across the nation.",
+    "category": "milestone"
+  },
+  {
+    "year": "1970s–1980s",
+    "title": "Expanding Access and Diversity",
+    "description": "UC expanded financial aid programs and increased efforts to diversify its student body. At the same time, UC strengthened its professional schools in medicine, law, and engineering, while accommodating surging enrollment driven by California's population growth.",
+    "category": "reform"
+  },
+  {
+    "year": "1990s",
+    "title": "Technology and Global Recognition",
+    "description": "UC emerged as a leader in computer science, biotechnology, and new technology industries. UC faculty, alumni, and students played a major role in the rise of Silicon Valley, internet innovation, and global biotechnology research.",
+    "category": "milestone"
   },
   {
     "year": 2005,
     "title": "UC Merced Opens",
-    "description": "First new UC campus in the 21st century, serving the Central Valley.",
+    "description": "The University of California opened its 10th campus in Merced, located in the state's Central Valley. UC Merced was created to expand access to underserved regions and became the first American research university to open in the 21st century.",
     "campus": "Merced",
     "category": "founding",
     "image": "/src/assets/ucmerced-2005.jpg"
+  },
+  {
+    "year": "2010s",
+    "title": "Modernization and Sustainability",
+    "description": "UC strengthened its role as a global leader in sustainability, pledging aggressive climate neutrality goals. At the same time, UC campuses consistently ranked among the world's top research universities while expanding online education to reach a broader student population.",
+    "category": "reform"
+  },
+  {
+    "year": 2020,
+    "title": "The COVID-19 Pandemic",
+    "description": "The COVID-19 pandemic forced UC to rapidly shift to online instruction. UC researchers were heavily involved in public health responses, including epidemiology studies and vaccine development, underscoring UC's central role in addressing global crises.",
+    "category": "milestone"
+  },
+  {
+    "year": "2020s",
+    "title": "Equity and Access Debates",
+    "description": "UC continues to grapple with challenges related to funding, admissions, and equity. In 2020, UC eliminated the use of SAT and ACT tests in admissions, sparking national debates about fairness and access in higher education. Today, UC remains both a world-renowned research powerhouse and a public institution committed to serving the people of California.",
+    "category": "reform"
   }
 ]
