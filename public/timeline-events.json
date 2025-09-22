@@ -1,0 +1,68 @@
+[
+  {
+    "year": "1855",
+    "title": "Founding of the College of California",
+    "description": "A group of Congregational ministers established the College of California in Oakland, emphasizing a traditional liberal arts education. Their goal is to bring classical higher education to California, faced with financial struggles and lacks the resources to expand into a full-fledged university.",
+    "image": "/src/assets/college-california-1855.jpg"
+  },
+  {
+    "year": "1862",
+    "title": "Passage of the Morrill Land-Grant Act",
+    "description": "During the Civil War, President Abraham Lincoln signed the Morrill Land-Grant Act. It provided states with federal lands for the sake of funding and creating public colleges. California legislators saw the Morrill Land-Grant Act as a crucial opportunity to establish a public university system of their own.",
+    "image": "/src/assets/morrill-act-1862.jpg"
+  },
+  {
+    "year": "1866",
+    "title": "Merger Plans Between the College of California and the State of California",
+    "description": "In 1866, the College of California began to recognize that its private institution would not survive without outside support. As a result, they pooled their resources with the state's land-grant funds, but only if California agreed that the new institution would be a full university, not an agricultural or mechanical school. In the wake of the agreement, the University of California was created.",
+    "image": "/src/assets/merger-plans-1866.jpg"
+  },
+  {
+    "year": "1868",
+    "title": "University of California Chartering",
+    "description": "On March 23, 1868, California legislature formally chartered the University of California as the state's public university within the state constitution. The new system was uniquely placed under the governance of the newly created Board of Regents, giving it constitutional autonomy, a distinguishing factor still relevant today.",
+    "image": "/src/assets/uc-charter-1868.jpg"
+  },
+  {
+    "year": "1869",
+    "title": "University of Oakland Opening",
+    "description": "In 1869, the first University of California campus was opened in Oakland with Henry Durant serving as its first president, him been the previous College of California. The university opened with only 10 faculty members and 38 students, but would soon grow.",
+    "image": "/src/assets/uc-oakland-1869.jpg"
+  },
+  {
+    "year": "1873",
+    "title": "Movement to the Berkeley Campus",
+    "description": "The University of California moved from Oakland to a location within Berkeley, chosen for its scenic view and large land. The original Oakland was temporary, so this move was inevitable. UC Berkeley was now established as the first true campus of the system.",
+    "image": "/src/assets/uc-berkeley-1873.jpg"
+  },
+  {
+    "year": "1880s–1890s",
+    "title": "UC Berkeley Growth",
+    "description": "UC Berkeley expanded its curriculum to include more on science, engineering, and law; additionally, it began to build a reputation as a center of research.",
+    "image": "/src/assets/berkeley-growth-1880s.jpg"
+  },
+  {
+    "year": "1905–1908",
+    "title": "Establishment of the University Farm (UC Davis)",
+    "description": "UC Davis was established when the UC system wished to expand its agricultural education by creating an extension of the Berkeley Campus, buying up a University Farm near Davis in 1905, and officially opened in 1908. This farm site later grew into UC Davis, a major campus still centered on agricultural and life sciences.",
+    "image": "/src/assets/uc-davis-1908.jpg"
+  },
+  {
+    "year": "1942",
+    "title": "UC and the National Laboratories",
+    "description": "During World War II, UC played a significant role in the war effort when it signed a contract to run the Los Alamos Laboratory, which housed the Manhattan Project. In the subsequent decades, UC also ran Lawrence Berkeley Laboratory and Lawrence Livermore Laboratory, cementing its role as an important player in national defense and energy research.",
+    "image": "/src/assets/los-alamos-1942.jpg"
+  },
+  {
+    "year": "1958–1965",
+    "title": "Creation of New Campuses",
+    "description": "In the late 1950s and 1960s, UC expanded rapidly to meet the growing population of California. UC San Diego opened in 1960 as a science and engineering center with an expansion of the Scripps Institution of Oceanography. UC Irvine and UC Santa Cruz opened in 1965 as further demonstration of the system's commitment to statewide geographic availability and academic innovation.",
+    "image": "/src/assets/new-campuses-1960s.jpg"
+  },
+  {
+    "year": "1960",
+    "title": "The California Master Plan for Higher Education",
+    "description": "In 1960, UC President Clark Kerr directed the California Master Plan for Higher Education, which created the distinct missions of UC, the California State University system, and the community colleges. Under the plan, UC was characterized as the state's flagship public research university with sole authority to provide doctoral degrees, a structure still in place today.",
+    "image": "/src/assets/master-plan-1960.jpg"
+  }
+]
